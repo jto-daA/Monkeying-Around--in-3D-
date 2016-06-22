@@ -1,0 +1,34 @@
+﻿Build started 11/30/2012 8:32:00 PM.
+Project "I:\coding research\reasearch\CODE BACKUP\Monkeying Around\Monkeying Around.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Creating ".\Debug\Monkeying Around.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt DirectInput.cpp DirectSound.cpp OpenGL.cpp Win32.cpp Globals.cpp GUI.CPP Elements.cpp FileSpecs.cpp Game.cpp GameLogic.cpp TestBed.cpp
+  TestBed.cpp
+i:\coding research\reasearch\code backup\monkeying around\testbed.cpp : fatal error C1083: Cannot open compiler generated file: '.\Debug\TestBed.sbr': Permission denied
+  GameLogic.cpp
+i:\coding research\reasearch\code backup\monkeying around\gamelogic.cpp : fatal error C1083: Cannot open compiler generated file: '.\Debug\GameLogic.sbr': Permission denied
+  Game.cpp
+i:\coding research\reasearch\code backup\monkeying around\game.cpp : fatal error C1083: Cannot open compiler generated file: '.\Debug\Game.sbr': Permission denied
+  FileSpecs.cpp
+i:\coding research\reasearch\code backup\monkeying around\filespecs.cpp : fatal error C1083: Cannot open compiler generated file: '.\Debug\FileSpecs.sbr': Permission denied
+  Elements.cpp
+i:\coding research\reasearch\code backup\monkeying around\elements.cpp : fatal error C1083: Cannot open compiler generated file: '.\Debug\Elements.sbr': Permission denied
+  GUI.CPP
+i:\coding research\reasearch\code backup\monkeying around\gui.cpp : fatal error C1083: Cannot open compiler generated file: '.\Debug\GUI.sbr': Permission denied
+  Globals.cpp
+i:\coding research\reasearch\code backup\monkeying around\globals.cpp : fatal error C1083: Cannot open compiler generated file: '.\Debug\Globals.sbr': Permission denied
+  Win32.cpp
+i:\coding research\reasearch\code backup\monkeying around\win32.cpp : fatal error C1083: Cannot open compiler generated file: '.\Debug\Win32.sbr': Permission denied
+  OpenGL.cpp
+i:\coding research\reasearch\code backup\monkeying around\opengl.cpp : fatal error C1083: Cannot open compiler generated file: '.\Debug\OpenGL.sbr': Permission denied
+  DirectSound.cpp
+i:\coding research\reasearch\code backup\monkeying around\directsound.cpp : fatal error C1083: Cannot open compiler generated file: '.\Debug\DirectSound.sbr': Permission denied
+  DirectInput.cpp
+i:\coding research\reasearch\code backup\monkeying around\directinput.cpp : fatal error C1083: Cannot open compiler generated file: '.\Debug\DirectInput.sbr': Permission denied
+  Generating Code...
+Done Building Project "I:\coding research\reasearch\CODE BACKUP\Monkeying Around\Monkeying Around.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:14.49

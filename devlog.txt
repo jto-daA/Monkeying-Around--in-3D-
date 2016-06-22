@@ -1,0 +1,119 @@
+//////////////////////////////////////////////
+// Monkeying Around ( in 3D )
+//////////////////////////////////////////////
+
+5/3/06
+First day of coding. In process of adding Win32 suppport.
+
+5/8/06
+First day of second week of coding. Now 'wiggle' functionality to support OpenGL.
+
+5/15/06
+OGL foundation level added ( some debuugging needed ). Adding DXInput support this week.
+  5/20/06 Support added for DirectInput. Next, adding supoort to Initialize DirectSound.
+
+5/29/06
+Adding support for DirectSound.
+   6/03/06 Ran into slight problem implementing loader routines in DSound. Reviewing project docs in preperation to begin coding.
+
+6/10/06
+have decided to move forward with the game dev, despite lingering sys level bugs... Commencing with phase 2 
+
+6/11/06 
+done with headers for phase 2. Needed routines won't be determined until phases 4/5. Commencing with phase 3.
+
+Finish with phase 3. After a fairly eventful week of coding, moving on to the largest 2 sections of development.
+
+6/14/06 
+decided to up dev speed some quad fold. Eager to get reactive demo up and runing.
+
+6/15/06
+Fixed some embarassing erroring hiding in several header files. Refreshing OpenGL knowledge in preperation of GUI rendering... 
+
+6/16/06 
+Texture mapping added. Place-holder GUI in place, now continuing with game logic... Unfortunately, the far right side of keyboard is in error... 
+
+6/20/06 
+New keyboard, back in buisness. Decided to rethink approach in handling cube-based logic. Desided to break processing routine into a series of 
+functions that progressively check cubes and game grid. 
+
+6/21/06 
+Suffered crash that corrupted at least 3 source files...In the process of re-coding and determining dependencies... 
+
+6/22/06
+Researched some design methodolgies in hopes of developing an eloquent solution to the pattern detection algorithms. Decided to 
+begin work on rendering routines in the meantime...
+
+6/24/06
+Revamping some old GUI code in effort to establish the following rendering paradigm.
+
+
+                                        [ SIDE VIEW ] 
+
+
+
+								|			 ||            |
+								|   		 ||            |
+								|			 ||            |
+								|			 ||            |
+								|			 ||            |
+								|			 ||	           |
+								|			 ||            |
+								|			 ||            |
+								|			 ||            |
+								|			 ||            |
+								|			 ||            |
+								|			 ||            |
+								|			 ||            |											 
+								|			 ||            |
+								|			 ||            | 
++Z =============================|==========================|=============================================== -Z
+								|			 ||            |
+								|			 ||            |
+								|			 ||            |
+								|			 ||            |
+								|			 ||            |
+								|			 ||            |
+								|			 ||            |
+								|			 ||            |
+								|			 ||            |			            								 											 
+								|			 ||            |
+								|			 ||            |
+								|			 ||            |
+								|			 ||            |
+								|			 ||            |
+								|			 ||            |
+								|			 ||            |
+								|			 ||            |
+                         [Avatar space]  [GUI space]  [Game Space]
+	                        {X,Y,+Z}       {X,Y,0}      {X,Y,-Z}    
+
+After trying to implement the above scheme, and doing some research on OpenGL, it seems that the view frustrum is defined ( far and near
+planes ) *only* for positive values. Therefore :
+[ Avatar space ] = { X , Y , 0 }
+[   GUI space  ] = { X , Y , Z+ }
+[  Game space  ] = { X , Y , Z++ }
+
+on with the coding.. 
+ 
+6/26/06
+Stating week 9 of coding ( already?!?! ).After finished GL_Allocate2DArray, the majority of the coding for the initial build will be complete.
+After that the focus will be on finalizing content, and accompaning code... 
+
+
+6/28/06
+Bad week for coding. Progress all but halted due to a bug with DirectInput which is rendering all user input NULL... Must fix before moving on...
+
+6/29/06
+Woo hoo!!! Fixed nagging DirectInput error. Game now responds to input. Now correcting *every*thing else.
+
+
+
+
+// THINGS TO DO ///////////////////////////////											 
+//////////////////////
+* Add error logging system--key variables redirected to file
+* Add better random number system.
+
+
+ 

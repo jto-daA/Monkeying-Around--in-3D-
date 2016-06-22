@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{e6274337-7fe2-4751-b1a0-64eab7d81206}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\system">
+      <UniqueIdentifier>{667e9e14-90bd-4108-ad7c-371b6ae32249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\global">
+      <UniqueIdentifier>{196ea3fc-ad27-4a00-a9d5-c431860a49ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game">
+      <UniqueIdentifier>{c9e4906c-13d5-4901-b8b7-0642fa7d59b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\graphics">
+      <UniqueIdentifier>{6f98f325-92b9-4edf-9533-ac6581b836b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{f85752be-4da4-4fe9-81ce-52cac596f644}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\system_h">
+      <UniqueIdentifier>{1c35fd5b-804a-4d07-9f73-3a3f9ed8bf0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\resources">
+      <UniqueIdentifier>{94a9a20d-ed7f-4917-afc7-e034f2cb8b68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game_h">
+      <UniqueIdentifier>{f6d45422-f4d6-4d8a-8afe-213bc99ca93a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game_h\math">
+      <UniqueIdentifier>{a674372c-aee0-4caf-a85f-d4c2da77093f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game_h\graphics_h">
+      <UniqueIdentifier>{3d43d1b6-4095-4a4a-af63-332f093a6642}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{66bf0307-16c0-4fac-9e3b-99a364578a03}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="dev log">
+      <UniqueIdentifier>{2943967e-529a-4df5-8b00-24d677e9fc65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="content">
+      <UniqueIdentifier>{dbd4465d-4a33-40f0-91b6-644d0311ea8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="content\audio">
+      <UniqueIdentifier>{f93bb0e5-9b36-4e83-b86b-a0d8908149fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="content\audio\music">
+      <UniqueIdentifier>{de7bac8d-db6f-4076-889d-6253cb0b87bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="content\monkey files">
+      <UniqueIdentifier>{d8497ee7-0179-42b3-a8cf-2e4be00a4b53}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DirectInput.cpp">
+      <Filter>Source Files\system</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectSound.cpp">
+      <Filter>Source Files\system</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL.cpp">
+      <Filter>Source Files\system</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32.cpp">
+      <Filter>Source Files\system</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp">
+      <Filter>Source Files\global</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.CPP">
+      <Filter>Source Files\game\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Elements.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSpecs.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLogic.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TestBed.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DirectInput.h">
+      <Filter>Header Files\system_h</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectSound.h">
+      <Filter>Header Files\system_h</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL.h">
+      <Filter>Header Files\system_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32.h">
+      <Filter>Header Files\system_h</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\resource.h">
+      <Filter>Header Files\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Header Files\game_h\math</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.H">
+      <Filter>Header Files\game_h\graphics_h</Filter>
+    </ClInclude>
+    <ClInclude Include="elements.h">
+      <Filter>Header Files\game_h</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSpecs.h">
+      <Filter>Header Files\game_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\game_h</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDefs.h">
+      <Filter>Header Files\game_h</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLogic.h">
+      <Filter>Header Files\game_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Session.h">
+      <Filter>Header Files\game_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resources\Script1.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="devlog.txt">
+      <Filter>dev log</Filter>
+    </CustomBuild>
+    <CustomBuild Include="content\audio\music\CANYON.mid">
+      <Filter>content\audio\music</Filter>
+    </CustomBuild>
+    <CustomBuild Include="content\audio\music\MoonShiner.wav">
+      <Filter>content\audio\music</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debug.mcfg">
+      <Filter>content\monkey files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
